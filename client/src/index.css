@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin : 0;
+  box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content{
+  height: fit-content;
+  padding:20px;
+  padding-bottom: 45px;
+}
+
+
+
+
+.navbar{
+  background-color: rgb(235, 192, 239) !important;
+  /* width: 100vw;  */
+  /* background-color: rgb(83, 41, 88) !important; */
+  /* background-color: rgb(113, 31, 80) !important; */
+}
+
+
+
+.login-page{
+  display: flex;
+  justify-content : space-around;
+  align-items: center;
+  height: 90vh;
+  background-color:  rgb(236, 220, 238)
+}
+
+.register-page{
+  display: flex;
+  justify-content : space-around;
+  align-items: center;
+  height: 90vh;
+  background-color:  #a8bdd2;
+}
+
+/* .background-pic{
+  width:15vw;
+} */
+
+.form-login{
+  display: flex;
+  flex-direction:column;
+  justify-content :center;
+  align-items: center;
+  padding: 30px;
+  padding-top: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 70vh;
+  /* align-items: center; */
+}
+
+.form-register{
+  display: flex;
+  flex-direction:column;
+  justify-content :center;
+  align-items: center;
+  padding: 30px;
+  padding-top: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 90vh;
+}
+
+.loginHeader{
+  margin-top: -35px;
+  padding: 30px;
+}
+
+.registerHeader{
+  /* margin-top: -20px; */
+  padding: 20px;
+}
+
+
+/*transaction page*/
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px grey;
+}
+/*transaction page*/
+
+
+/*antd icons*/
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.switch-icon{
+  border: 1px solid rgba(0, 0, 0, 677);
+  border-radius: 5px;
+  padding: 10px 15px; 
+}
+
+.active-icon{
+  color: black;
+}
+
+.inactive-icon{
+  color: gray;
+}
+
+/* .analytics-flex{
+  display: flex;
+  justify-content: center;
+} */
+
+.card{
+  width: 35vw;
+}
+
+.circle-progress{
+  display: flex;
+  justify-content: space-around;
+}
+
+.categories-card-header{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .card{
+  height: 50vh;
+  width: 40vw;
+} */
+
+/* .card-body{
+  display: flex;
+  justify-content: column;
+  align-items:center;
+  .income{
+    display: flex;
+    justify-content: column;
+    align-items : center;
+  }
+  .expense{
+    display: flex;
+    justify-content: column;
+    align-items : center;
+  }
+} */
+
+
+
+
